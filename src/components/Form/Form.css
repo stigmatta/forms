@@ -1,0 +1,42 @@
+input{
+    border-radius: 1em;
+    
+}
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:white;
+    width: 12em;
+    height: 3em;
+    padding: 1em;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1em;
+}
+
+.valid{
+    border: .3em solid green;
+    border-radius: 1em;
+}
+
+
+.invalid{
+    border: .3em solid red;
+
+}
